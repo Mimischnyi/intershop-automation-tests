@@ -1,0 +1,17 @@
+{
+  "name": "itog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 15000 --require utils/hooks.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "edgedriver": "^6.1.1",
+    "mocha": "^11.6.0",
+    "selenium-webdriver": "^4.30.0"
+  }
+}
